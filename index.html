@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <title>CodeQuest: DOMination</title>
+</head>
+
+<body>
+
+    <section id="start-screen">
+        <div id="start-container">
+            <h1>Ready to begin?</h1>
+            <p>Click the button to start the quiz.</p>
+            <button id="start-button">Start Quiz</button>
+        </div>
+    </section>
+
+    <section class="quiz">
+        <div id="quiz-container" class="hidden">
+            <h1>Who wants to show their knowledge on JavaScript?</h1>
+            <div id="question-container"></div>
+            <div id="options-container"></div>
+            <button id="next-button">Next Question</button>
+        </div>
+    </section>
+
+    <section class="score">
+        <div id="score-container" class="hidden">
+            <h2>Your score:</h2>
+            <p id="score">
+
+            </p>
+            <button id="restart-button">Restart Quiz</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
